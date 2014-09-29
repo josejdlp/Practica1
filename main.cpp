@@ -6,14 +6,44 @@
  */
 
 #include <cstdlib>
-
+#include <iostream>
+#include <fstream>
+#include "Vdin.h"
+#include "ErrorRango.h"
 using namespace std;
 
 /*
  * 
  */
+
 int main(int argc, char** argv) {
+    try{
+    
+        
+        
+        
+        
+        
+    //operamos con el vector
 
-    return 0;
+    //Realizamos borrados
+
+    //mostramos resultados
+
+
+    }catch(ErrorRango &e){
+         cout << e.what() << endl;
+    }
+    catch(bad_alloc e){
+     cout << "No hay memoria suficiente para el objeto dinamico" << endl;
+ }
+    
+ return 0;  
+
 }
+   
+   
 
+ void CargaFichero(){
+   
+}
