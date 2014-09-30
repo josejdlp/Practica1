@@ -19,7 +19,7 @@ using namespace std;
 int main(int argc, char** argv) {
     try{
     
-        
+        cout << "hola" << endl;
         
         
         
@@ -44,6 +44,3 @@ int main(int argc, char** argv) {
    
    
 
- void CargaFichero(){
-   
-}
